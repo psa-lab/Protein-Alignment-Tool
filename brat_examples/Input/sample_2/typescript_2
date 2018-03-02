@@ -1,0 +1,10 @@
+Script started on Tue 09 Aug 2016 06:39:29 PM EDT
+[Binding_Residue_Alignment_Tool]$ python ./brat_main.py -q ./Input/sample_2/3QAK.pdb -t ./Input/sample_2/3EML.pdb -a ./Input/sample_2/3QAK_to_3EML_Z_34.3.txt -r ./Input/sample_2/3QAK_binding_residues.pdb -l UKA,A,1200 -r 4
+
+
+Binding residues written to ./Input/sample_2/3QAK_to_3EML_Z_34.3_brat_res.csv
+Results written to ./Input/sample_2/3QAK_to_3EML_Z_34.3_brat_aligned.html
+[Binding_Residue_Alignment_Tool]$ exit
+exit
+
+Script done on Tue 09 Aug 2016 06:42:39 PM EDT

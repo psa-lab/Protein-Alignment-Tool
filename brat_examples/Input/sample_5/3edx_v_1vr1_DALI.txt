@@ -1,0 +1,8 @@
+molecule 1: 3edx
+molecule 2: 1vr1
+
+# Structural equivalences
+   1: mol1-B mol2-H     1 -  22 <=>    1 -  22   (ILE   16  - SER  36A  <=> ILE   16  - HIS   37 )                          
+   1: mol1-B mol2-H    24 - 147 <=>   23 - 146   (GLN   38  - THR  147  <=> GLU   38  - THR  147 )                          
+   1: mol1-B mol2-H   155 - 231 <=>  147 - 223   (ILE  150  - CYS  220  <=> GLY  150  - CYS  220 )                          
+   1: mol1-B mol2-H   233 - 255 <=>  225 - 247   (ARG 221A  - ASP  243  <=> ARG 221A  - ASP  243 )                          

@@ -1,0 +1,18 @@
+molecule 1: 1htg
+molecule 2: 1bai
+
+# Structural equivalences
+   1: mol1-A mol2-A     1 -   6 <=>    1 -   6   (PRO    1  - TRP    6  <=> LEU    1  - GLU    6 )                          
+   1: mol1-A mol2-A     7 -  16 <=>    9 -  18   (GLN    7  - GLY   16  <=> ASP    9  - THR   18 )                          
+   1: mol1-A mol2-A    17 -  35 <=>   29 -  47   (GLY   17  - GLU   35  <=> SER   29  - GLU   47 )                          
+   1: mol1-A mol2-A    36 -  45 <=>   50 -  59   (MET   36  - LYS   45  <=> TRP   50  - ALA   59 )                          
+   1: mol1-A mol2-A    46 -  59 <=>   63 -  76   (MET   46  - TYR   59  <=> GLN   63  - SER   76 )                          
+   1: mol1-A mol2-A    60 -  67 <=>   78 -  85   (ASP   60  - CYS   67  <=> ASP   78  - ILE   85 )                          
+   1: mol1-A mol2-A    68 -  99 <=>   92 - 123   (GLY   68  - PHE   99  <=> GLU   92  - ASN  123 )                          
+   1: mol1-B mol2-B     1 -   6 <=>    1 -   6   (PRO    1  - TRP    6  <=> LEU    1  - GLU    6 )                          
+   1: mol1-B mol2-B     7 -  16 <=>    9 -  18   (GLN    7  - GLY   16  <=> ASP    9  - THR   18 )                          
+   1: mol1-B mol2-B    17 -  35 <=>   29 -  47   (GLY   17  - GLU   35  <=> SER   29  - GLU   47 )                          
+   1: mol1-B mol2-B    36 -  44 <=>   50 -  58   (MET   36  - PRO   44  <=> TRP   50  - GLU   58 )                          
+   1: mol1-B mol2-B    45 -  59 <=>   62 -  76   (LYS   45  - TYR   59  <=> PRO   62  - SER   76 )                          
+   1: mol1-B mol2-B    60 -  67 <=>   78 -  85   (ASP   60  - CYS   67  <=> ASP   78  - ILE   85 )                          
+   1: mol1-B mol2-B    68 -  99 <=>   92 - 123   (GLY   68  - PHE   99  <=> GLU   92  - ASN  123 )                          

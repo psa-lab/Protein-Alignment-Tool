@@ -1,0 +1,83 @@
+# BRAT version documentation
+#
+# created:
+# Joe Bemister
+# 23/07/2016
+#
+# Updated:
+# Joe Bemister
+# 08/08/2016
+#
+
+
+Most recent update v1.0.1
+
+
+v1.0.1
+    -fixed an issue where alternate residues would not be recognized if the
+        identification was done using numbers in the pdb file.
+
+v1.0.0
+    -established as first stable version
+
+v0.1.5
+    -added the ability to handle pdb files without a chain ID. BRAT in this case
+        assumes that there is only one chain for all of the ATOM entries in the 
+        alignment. Any user binding residue input should also lack the chain (if it's
+        the query missing the chain ID). This can be done in pdb format by having the 
+        same chain ID in the mini pdb as is the query pdb (both = ' '). This can be
+        done in csv by having each residue of form:
+
+            <3 letter chain ID><chain><residue number>, ...
+            where chain is equal to ' '. 
+
+            for example: 
+            for no chain ID it should look like "ASP 200" 
+            for chain ID A is should look like "ASPA200"
+    -added the ability to prompt the user whenever a binding residue in a csv is of format
+        <3 letter chain ID><residue number> saying that it is not proper format
+        and that it will be ignored. This, however, will cause the alignment to 
+        not output properly so I commented out the normal prompt and replaced it with a 
+        message describing to the user that the output will not be correct unless the 
+        binding residues are of normal format.
+
+
+v0.1.4
+    -added the ability to handle insertions in the pdb file that follow the format:
+        <residue> <chain> <res_num><insertion_letter>
+        TYR A   24A
+        LEU A   24B
+    -added a Datestamp to both the output brat_res.csv and brat_aligned.html files
+    -added an error message if a binding residue from the user input csv is not of form: 
+        <3 char residue ID><chain><resnumber>
+    -added the file path for the query and target to both the output brat_res.csv and 
+        brat_aligned.html files
+    -added corresponding residues of the target to the brat_res.csv output file directly under 
+        the query binding residues.
+
+
+v0.1.3
+
+    -added the ability to handle mutated residues that are a part of the protein.
+        BRAT can handle the following mutated residues:
+
+        TPO = PHOSPHOTHREONINE, PTR = PHOSPHOTYROSINE, SEP = PHOSPHOSERINE, 2ML = 2-METHYLLEUCINE, 
+        M3L = N-TRIMETHYLLYSINE, MLY = N-DIMETHYL-LYSINE, ACE = ACETYL GROUP, 
+        LMQ = (3S)-3-METHYL-L-GLUTAMINE, MEQ = N5-METHYLGLUTAMINE, NCY = N-METHYLCYSTEINE, 
+        HIC = METHYL-HISTIDINE], AGM = 5-METHYLARGININE, 2MR = N3,N4-DIMETHYLARGININE, 
+        SME = METHIONINE SULFOXIDE
+
+
+v0.1.2
+
+    -removed the emphasis on heavy atoms for the ligand. All ligand atoms
+        will now be taken into account for the ligand radius used to gather
+        BRAT binding residues.
+    -fixed an issue where the binding residue input as a csv file would not 
+        work if spaces were included in the file.
+
+
+v0.1.1
+
+    -added ability to handle multiple chain alignments
+    -added the ability to handle a range of residue numbers as a ligand

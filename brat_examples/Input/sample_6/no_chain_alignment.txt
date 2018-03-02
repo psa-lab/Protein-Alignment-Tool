@@ -1,0 +1,14 @@
+molecule 1: quer
+molecule 2: targ
+
+# Structural equivalences
+   1: mol1   mol2-A     2 -  63 <=>    4 -  65   (GLU   41  - VAL  102  <=> SER    4  - SER   65 )                          
+   1: mol1   mol2-A    66 - 135 <=>   66 - 135   (GLY  105  - PHE  174  <=> THR   66  - LEU  135 )                          
+   1: mol1   mol2-A   137 - 144 <=>  136 - 143   (PRO  176  - ARG  183  <=> THR  136  - ASN  143 )                          
+   1: mol1   mol2-A   153 - 156 <=>  144 - 147   (CYS  192  - ASP  195  <=> CYS  144  - SER  147 )                          
+   1: mol1   mol2-A   157 - 163 <=>  154 - 160   (PRO  196  - VAL  202  <=> GLN  154  - GLU  160 )                          
+   1: mol1   mol2-A   164 - 171 <=>  163 - 170   (THR  203  - ALA  210  <=> VAL  163  - TYR  170 )                          
+   1: mol1   mol2-A   172 - 197 <=>  172 - 197   (SER  211  - GLU  236  <=> ASN  172  - ARG  197 )                          
+   1: mol1   mol2-A   198 - 233 <=>  203 - 238   (GLN  237  - ARG  317  <=> LEU  203  - PRO  238 )                          
+   1: mol1   mol2-A   234 - 260 <=>  241 - 267   (ASP  318  - CYS  344  <=> SER  241  - ALA  267 )                          
+   1: mol1   mol2-A   261 - 274 <=>  269 - 282   (ARG  345  - ALA  358  <=> ARG  269  - ARG  282 )                                                              

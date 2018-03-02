@@ -1,0 +1,8 @@
+molecule 1: 3QAK
+molecule 2: 3EML
+
+# Structural equivalences
+   1: mol1-A mol2-A     1 - 146 <=>    1 - 146   (ILE    3  - GLN  148  <=> ILE    3  - GLN  148 )                          
+   1: mol1-A mol2-A   147 - 416 <=>  149 - 418   (GLY  158  - ASN  280  <=> GLY  158  - ASN  280 )                          
+   1: mol1-A mol2-A   418 - 426 <=>  419 - 427   (VAL  282  - TYR  290  <=> SER  281  - ALA  289 )                          
+   1: mol1-A mol2-A   427 - 444 <=>  429 - 446   (ARG  291  - LEU  308  <=> ARG  291  - LEU  308 )                          
