@@ -38,9 +38,18 @@ def print_align(d_target, d_query, d_query_align, target, query, ofile):
     count = 0
     while count < len(output_1.split(',')) - 2:
         if count in d_query_align.keys():
-            output_a += ',' + d_query[d_query_align[count]][0] + str(d_query_align[count])
-            output_b += ',' + d_query[d_query_align[count]][1]
-            output_c += ',' + str(d_query[d_query_align[count]][2])
+            try:
+                output_a += ',' + d_query[d_query_align[count]][0] + str(d_query_align[count])
+                output_b += ',' + d_query[d_query_align[count]][1]
+                output_c += ',' + str(d_query[d_query_align[count]][2])
+            except KeyError:
+                if count < max(d_query_align.keys()):
+                    count += 1
+                    continue
+                else:
+                    #print("align{}, quer{}".format(d_query_align[count], d_query[d_query_align[count]]))
+                    print("cnt:{} len:{}".format(count, len(output_1.split(',')) - 2))
+                    break
         else:
             output_a += ',-'
             output_b += ',-'
