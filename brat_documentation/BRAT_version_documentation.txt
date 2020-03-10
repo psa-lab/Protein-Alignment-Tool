@@ -6,12 +6,11 @@
 #
 # Updated:
 # Joe Bemister
-# 08/08/2016
+# 10/03/2020
 #
 
 
 Most recent update v1.0.1
-
 
 v1.0.1
     -fixed an issue where alternate residues would not be recognized if the

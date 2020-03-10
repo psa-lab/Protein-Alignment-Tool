@@ -756,28 +756,6 @@ else:
 
 
 
-#class MyWriter:
-#
-#    def __init__(self, stdout, filename):
-#        self.stdout = stdout
-#        self.logfile = file(filename, 'a')
-#
-#    def write(self, text):
-#        self.stdout.write(text)
-#        self.logfile.write(text)
-#
-#    def close(self):
-#        self.stdout.close()
-#        self.logfile.close()
-#
-#writer = MyWriter(sys.stdout, output_file)
-#sys.stdout = writer
-#######################################################
-
-
-
-
-
 
 def main():
     # opens, reads, and closes the input file. returns a dictionary query alignment
@@ -801,7 +779,7 @@ def main():
         index = sres_file.rfind('.')
         if sres_file[index:] == '.csv' or sres_file[index:] == '.txt':
             user_bind_res, total_bind_res = read_bind_res_csv(sres_file, total_bind_res)
-            print("user_bind_res: {}".format(user_bind_res))
+            #print("user_bind_res: {}".format(user_bind_res))
         elif sres_file[index:] == '.pdb':
             user_bind_res, total_bind_res = read_bind_res_pdb(sres_file, total_bind_res)
             #print("user_bind_res: {}".format(user_bind_res))
@@ -817,12 +795,12 @@ def main():
     if slig_ID:
         lig_ID = slig_ID.split(',')
         brat_bind_res, total_bind_res = get_bind_res(squery, lig_ID, iradius, total_bind_res)
-        print("brat_bind_res: {}".format(brat_bind_res))
+        #print("brat_bind_res: {}".format(brat_bind_res))
 
 
     # creates a list containing a list for the binding residues of each chain
     l_bind_res, tmp_list, chain = [], [], ''
-    print("sorted total_bind_res: {}".format(sorted(total_bind_res, key=lambda string: string[3:])))
+    #print("sorted total_bind_res: {}".format(sorted(total_bind_res, key=lambda string: string[3:])))
     for item in sorted(total_bind_res, key=lambda string: string[3:]):
         #print("res: {}, digit: {}".format(item, item[3].isdigit()))
         if item[3].isdigit():
@@ -845,7 +823,7 @@ def main():
     #print("l_query_align:\n{}\n".format(l_query_align))
     #print("l_query:\n{}\n".format(l_query))
     #print("l_target:\n{}\n".format(l_target))
-    print("l_bind_res:\n{}\n".format(l_bind_res))
+    #print("l_bind_res:\n{}\n".format(l_bind_res))
 
     l_targ_bind_res = []
 

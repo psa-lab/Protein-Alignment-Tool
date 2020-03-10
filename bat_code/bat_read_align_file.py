@@ -20,7 +20,7 @@ def read(sFilename):
     try:
         objFile = open(sFilename, 'r')
     except IOError:
-        print "\n\n    ERROR: could not open {}\n\n".format(sFilename)
+        print("\n\n    ERROR: could not open {}\n\n".format(sFilename))
         sys.exit()
 
     d_query_align = {}

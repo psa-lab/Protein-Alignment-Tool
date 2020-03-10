@@ -23,7 +23,7 @@ def print_align(d_target, d_query, d_query_align, target, query, ofile):
     try:
         outFile = open(ofile, 'w')
     except IOError:
-        print "\n\n    ERROR: could not open {}\n\n".format(ofile)
+        print("\n\n    ERROR: could not open {}\n\n".format(ofile))
         sys.exit()
 
     output_1, output_2, output_3 = ',Chain ID and Residue Number', target + ',Residue ID', ',Flexibility Index'
@@ -35,7 +35,7 @@ def print_align(d_target, d_query, d_query_align, target, query, ofile):
     outFile.write('{}\n{}\n{}\n\n'.format(output_1, output_2, output_3))
 
     output_a, output_b, output_c = ',Chain ID and Residue Number', query + ',Residue ID', ',Flexibility Index'
-    count = 0
+    count = 1
     while count < len(output_1.split(',')) - 2:
         if count in d_query_align.keys():
             try:
@@ -58,4 +58,3 @@ def print_align(d_target, d_query, d_query_align, target, query, ofile):
     #print('{}\n{}\n{}\n'.format(output_a, output_b, output_c))
     outFile.write('{}\n{}\n{}\n\n'.format(output_a, output_b, output_c))
     outFile.close()
-

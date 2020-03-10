@@ -43,23 +43,6 @@ else:
 
 print('Results written to {}'.format(output_file))
 
-
-class MyWriter:
-
-    def __init__(self, stdout, filename):
-        self.stdout = stdout
-        self.logfile = file(filename, 'a')
-
-    def write(self, text):
-        self.stdout.write(text)
-        self.logfile.write(text)
-
-    def close(self):
-        self.stdout.close()
-        self.logfile.close()
-
-#writer = MyWriter(sys.stdout, output_file)
-#sys.stdout = writer
 #######################################################
 
 

@@ -3,9 +3,9 @@ Binding residues from the alignment of 3QAK and 3EML
 BRAT_bind_res, TYRA9,LEUA37,ASNA39,ASNA42,ALAA63,ILEA64,SERA67,PROA109,LEUA110,ILEA274,ILEA292,PHEA295,ARGA1008,GLYA1012,LEUA1013
 corresponding_target_res, TYRA9,LEUA37,ASNA39,ASNA42,ALAA63,ILEA64,SERA67,PROA109,LEUA110,ILEA274,ILEA292,PHEA295,ARGA1008,GLYA1012,LEUA1013
 
-BRAT_bind_res was defined as the residues within 4.5 Angstrom of residue span #:1203-1205 of chain:A in ./Input/sample_3/3QAK.pdb
+BRAT_bind_res was defined as the residues within 4.5 Angstrom of residue span #:1203-1205 of chain:A in ./brat_examples/Input/sample_3/3QAK.pdb
 
-BRAT v1.0.0
-August 12 2016  14:25
+BRAT v1.0.1
+March 10 2020  16:26:12
 Protein Structural Analysis & Design Laboratory
 www.kuhnlab.bmb.msu.edu

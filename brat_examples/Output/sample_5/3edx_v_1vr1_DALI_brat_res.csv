@@ -3,9 +3,9 @@ Binding residues from the alignment of 3edx and 1vr1
 BRAT_bind_res, LEUB130,ALAB132,ILEB162,VALB163,ARGB165,PHEB181
 corresponding_target_res, LEUH130,ALAH132,ILEH162,VALH163,ARGH165,PHEH181
 
-BRAT_bind_res was defined as the residues within 4.5 Angstrom of ligand ID:SO4 #:307 of chain:B in ./Input/sample_5/3edx.pdb
+BRAT_bind_res was defined as the residues within 4.5 Angstrom of ligand ID:SO4 #:307 of chain:B in ./brat_examples/Input/sample_5/3edx.pdb
 
-BRAT v1.0.0
-August 12 2016  14:13
+BRAT v1.0.1
+March 10 2020  16:28:15
 Protein Structural Analysis & Design Laboratory
 www.kuhnlab.bmb.msu.edu

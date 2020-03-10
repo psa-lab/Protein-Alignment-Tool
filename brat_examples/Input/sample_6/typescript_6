@@ -1,10 +1,10 @@
-Script started on Tue 09 Aug 2016 06:53:34 PM EDT
-[Binding_Residue_Alignment_Tool]$ python ./brat_main.py -q ./Input/sample_6/no_chain_query.pdb -t ./Input/sample_6/target.pdb -a ./Input/sample_6/no_chain_alignment.txt -b ./Input/sample_6/no_chain_query_bind_res.csv
+Script started on Mon 09 Mar 2020 06:53:34 PM EDT
+[Protein-Alignment-Tool]$ python ./brat.py -q ./brat_examples/Input/sample_6/no_chain_query.pdb -t ./brat_examples/Input/sample_6/target.pdb -a ./brat_examples/Input/sample_6/no_chain_alignment.txt -b ./brat_examples/Input/sample_6/no_chain_query_bind_res.csv
 
 
-Binding residues written to ./Input/sample_6/no_chain_alignment_brat_res.csv
-Results written to ./Input/sample_6/no_chain_alignment_brat_aligned.html
-[Binding_Residue_Alignment_Tool]$ exit
+Binding residues written to ./brat_examples/Input/sample_6/no_chain_alignment_brat_res.csv
+Results written to ./brat_examples/Input/sample_6/no_chain_alignment_brat_aligned.html
+[Protein-Alignment-Tool]$ exit
 exit
 
-Script done on Tue 09 Aug 2016 06:55:44 PM EDT
+Script done on Mon 09 Mar 2020 06:55:44 PM EDT

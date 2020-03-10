@@ -1,5 +1,5 @@
-Script started on Tue 09 Aug 2016 06:32:20 PM EDT
-[Binding_Residue_Alignment_Tool]$ python ./brat_main.py -q ./Input/sample_1/sample_1_query.pdb -t ./Input/sample_1/sample_1_target.pdb -a ./Input/sample_1/sample_1_alignment.txt -b ./Input/sample_1/sample_1_binding_residues.csv -l P324,,1
+Script started on Mon 09 Mar 2020 06:32:20 PM EDT
+[Protein-Alignment-Tool]$ python ./brat.py -q ./brat_examples/Input/sample_1/sample_1_query.pdb -t ./brat_examples/Input/sample_1/sample_1_target.pdb -a ./brat_examples/Input/sample_1/sample_1_alignment.txt -b ./brat_examples/Input/sample_1/sample_1_binding_residues.csv -l P324,,1
 
 
 User has requested BRAT's radius identification of binding residues 
@@ -7,9 +7,9 @@ but did not specify a radius. The default 4.5 Angstrom radius will
 be used.
 
 
-Binding residues written to ./Input/sample_1/sample_1_alignment_brat_res.csv
-Results written to ./Input/sample_1/sample_1_alignment_brat_aligned.html
-[Binding_Residue_Alignment_Tool]$ exit
+Binding residues written to ./brat_examples/Input/sample_1/sample_1_alignment_brat_res.csv
+Results written to ./brat_examples/Input/sample_1/sample_1_alignment_brat_aligned.html
+[Protein-Alignment-Tool]$ exit
 exit
 
-Script done on Tue 09 Aug 2016 06:33:46 PM EDT
+Script done on Mon 09 Mar 2020 06:33:46 PM EDT
