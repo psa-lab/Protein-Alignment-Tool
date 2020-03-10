@@ -7,10 +7,10 @@ BRAT_bind_res, ILEA66,VALA84,LEUA85,THRA88,GLNA89,ILEA92,LEUA167,PHEA168,GLUA169
 corresponding_target_res, ILEA66,VALA84,LEUA85,THRA88,GLNA89,ILEA92,LEUA167,PHEA168,GLUA169,META177,ASNA181,TRPA246,LEUA249,HISA250,ASNA253,THRA256,HISA264,LEUA267,META270,TYRA271,ILEA274,SERA277,HISA278
 
 
-USER_bind_res was defined from ./Input/sample_2/3QAK_to_3EML_Z_34.3.txt
-BRAT_bind_res was defined as the residues within 4.0 Angstrom of ligand ID:UKA #:1200 of chain:A in ./Input/sample_2/3QAK.pdb
+USER_bind_res was defined from ./brat_examples/Input/sample_2/3QAK_to_3EML_Z_34.3.txt
+BRAT_bind_res was defined as the residues within 4.0 Angstrom of ligand ID:UKA #:1200 of chain:A in ./brat_examples/Input/sample_2/3QAK.pdb
 
-BRAT v1.0.0
-August 12 2016  14:51
+BRAT v1.0.1
+March 10 2020  16:25:26
 Protein Structural Analysis & Design Laboratory
 www.kuhnlab.bmb.msu.edu

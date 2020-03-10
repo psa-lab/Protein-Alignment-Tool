@@ -7,10 +7,10 @@ BRAT_bind_res, ASPA25,GLYA27,GLYA48,GLYA49,ALAA28,ASPA29,ASPA30,VALA32,ILEA47,IL
 corresponding_target_res, ASPA37,GLYA39,HISA65,GLYA66,ALAA40,ASPA41,ASPA42,VALA44,ILEA64,ILEA108,ILEA67,LEUA35,PROA105,VALA106,GLNA63,GLYA70,ASPB37,GLYB39,ALAB40,ASPB41,ASPB42,VALB44,ILEB64,HISB65,LEUB100,GLYB66,ARGB10,ILEB67,LEUB35,PROB105,ILEB108,VALB106
 
 
-USER_bind_res was defined from ./single_file/Input/sample_4/1htg_v_1bai_DALI.txt
-BRAT_bind_res was defined as the residues within 4.5 Angstrom of ligand ID:G37 #:300 of chain:A in ./single_file/Input/sample_4/1htg.pdb
+USER_bind_res was defined from ./brat_examples/Input/sample_4/1htg_v_1bai_DALI.txt
+BRAT_bind_res was defined as the residues within 4.5 Angstrom of ligand ID:G37 #:300 of chain:A in ./brat_examples/Input/sample_4/1htg.pdb
 
 BRAT v1.0.1
-August 30 2016  15:47
+March 10 2020  16:27:30
 Protein Structural Analysis & Design Laboratory
 www.kuhnlab.bmb.msu.edu

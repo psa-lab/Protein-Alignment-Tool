@@ -1,5 +1,5 @@
-Script started on Tue 09 Aug 2016 06:51:16 PM EDT
-[Binding_Residue_Alignment_Tool]$ python ./brat_main.py -q ./Input/sample_5/3edx.pdb -t ./Input/sample_5/1vr1.pdb -a ./Input/sample_5/3edx_v_1vr1_DALI.txt -l SO4,B,307
+Script started on Mon 09 Mar 2020 06:51:16 PM EDT
+[Protein-Alignment-Tool]$ python ./brat.py -q ./brat_examples/Input/sample_5/3edx.pdb -t ./brat_examples/Input/sample_5/1vr1.pdb -a ./brat_examples/Input/sample_5/3edx_v_1vr1_DALI.txt -l SO4,B,307
 
 
 User has requested BRAT's radius identification of binding residues 
@@ -7,9 +7,9 @@ but did not specify a radius. The default 4.5 Angstrom radius will
 be used.
 
 
-Binding residues written to ./Input/sample_5/3edx_v_1vr1_DALI_brat_res.csv
-Results written to ./Input/sample_5/3edx_v_1vr1_DALI_brat_aligned.html
-[Binding_Residue_Alignment_Tool]$ exit
+Binding residues written to ./brat_examples/Input/sample_5/3edx_v_1vr1_DALI_brat_res.csv
+Results written to ./brat_examples/Input/sample_5/3edx_v_1vr1_DALI_brat_aligned.html
+[Protein-Alignment-Tool]$ exit
 exit
 
-Script done on Tue 09 Aug 2016 06:52:57 PM EDT
+Script done on Mon 09 Mar 2020 06:52:57 PM EDT
